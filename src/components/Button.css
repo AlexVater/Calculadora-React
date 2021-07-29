@@ -1,0 +1,46 @@
+.Button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: none;
+    margin: 10px;
+    background: linear-gradient(145deg, #7e7c93, #9694ae);
+    box-shadow:  6px 6px 12px #817f96,
+    -6px -6px 12px #9795b0;
+    transition: 0.3s;
+}
+
+.double {
+    width: 7rem;
+    grid-column: span 2;
+}
+
+
+.triple {
+    width: 11rem;
+    grid-column: span 3;
+}
+
+.Button:active {
+    background: #8c8aa3;
+    box-shadow: inset 10px 10px 16px #7e7c93,
+    inset -10px -10px 16px #9a98b3;
+    transition: 0.25s;
+}
+
+.Button:hover {
+    color: #970a96;
+    transition: 0.3s;
+}
+
+.operation:hover {
+    color: #0bc4c4;
+    transition: 0.3s;
+}
+
+.equalBtn:hover {
+    color: #25ff00;
+    transition: 0.3s;
+}

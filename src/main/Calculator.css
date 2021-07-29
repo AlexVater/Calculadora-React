@@ -1,0 +1,14 @@
+.Calculator {
+    height: 400px;
+    width: 265px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 65px 65px 65px 65px 65px;
+
+    background: linear-gradient(165deg, #9694ae, #7e7c93);
+    box-shadow:  8px 8px 19px #706e82,
+    -8px -8px 19px #a8a6c4;
+}

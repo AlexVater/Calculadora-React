@@ -1,0 +1,15 @@
+.Display {
+    grid-column: span 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 2rem;
+    font-weight: bolder;
+
+    border-radius: 15px;
+    background: #8c8aa3;
+    box-shadow: inset 12px 12px 24px #7b798f,
+    inset -12px -12px 24px #9d9bb7;
+}
